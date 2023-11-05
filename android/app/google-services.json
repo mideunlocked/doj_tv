@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "213552451135",
+    "project_id": "dojtv-65b28",
+    "storage_bucket": "dojtv-65b28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213552451135:android:4676834fb67eaf72b5328a",
+        "android_client_info": {
+          "package_name": "com.example.doj_tv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrD8FwyjgE5Iv8TefPzkyPLIsHHMt7_s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
