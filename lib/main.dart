@@ -1,8 +1,5 @@
-import 'dart:io';
-
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_windowmanager/flutter_windowmanager.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
 
@@ -19,11 +16,6 @@ import 'screens/user_credentials_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
-    if (Platform.isAndroid) {
-      await FlutterWindowManager.addFlags(FlutterWindowManager.FLAG_SECURE);
-    }
-  });
 
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
